@@ -60,21 +60,23 @@ p{
 }
 #trend{
   position: relative;
-  float: right;
-  left: 25vw;
+  /* float: right; */
+  /* left: 35vw; */
 }
 a:link{
   color: black;
 }
 a:hover{
   color: #1DA1F2;
-  text-decoration: none;
+  /* text-decoration: none; */
   background-color: #1DA1F2;
   border-radius: 20px;
-  height: 18vh;
   opacity: 0.2;
   transition-property: #1DA1F2, box-shadow;
   transition-duration: 0.2s;
+  padding: 10px 10px;
+  height: 100%;
+  width: 10%;
 }
 a:visited{
   color: none;
@@ -93,6 +95,8 @@ a{
   color: black;
   font-size: 24px;
   font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
 }
 i{
   font-weight: lighter;
@@ -186,4 +190,16 @@ i{
   /* margin-top: -5em; */
   right: -4em;
   margin-left: 4em;
+}
+
+.fa-comment,.fa-retweet,.fa-heart,.fa-download{
+  margin-right: 3em;
+  position:relative; 
+  bottom: -8.2em; 
+  right: 10em;
+  font-size: 14px;
+}
+#search2::placeholder{
+  background-color: gray;
+  border: none;
 }
